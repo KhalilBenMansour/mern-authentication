@@ -7,7 +7,7 @@ import {
   redirect,
   RouterProvider,
 } from "react-router-dom";
-import Login from "./components/Login.jsx";
+import Login from "./components/login/Login.jsx";
 import Register from "./components/register/Register.jsx";
 const router = createBrowserRouter([
   {
