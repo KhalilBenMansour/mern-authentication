@@ -18,7 +18,7 @@ const handleLogin = async (req, res) => {
         expiresIn: "1h",
       });
 
-      res.status(200).json({ success: true, user, accessToken });
+      res.status(200).json({ success: true, data, accessToken });
     } else {
       res.status(401).json({ message: "incorrect email or password" });
     }

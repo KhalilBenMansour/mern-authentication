@@ -7,6 +7,16 @@
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
+  .err-msg {
+    color: red;
+    background-color: rgb(247, 198, 198);
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .offscreen {
+    display: none;
+  }
   h2 {
     color: #2c314a;
     padding: 0 0 1rem;
